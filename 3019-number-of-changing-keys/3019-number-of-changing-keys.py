@@ -1,8 +1,5 @@
 class Solution:
     def countKeyChanges(self, s: str) -> int:
-        lastUsed = s[0]
-        changeCounter = 0
-
         lowerStr = s.lower()
         lastUsed = lowerStr[0]
         changeCounter = 0
